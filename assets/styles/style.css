@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+:root {
+  --primary-color: #e4bb52;
+  --secondary-color: #f1e470;
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+header {
+  background-color: blue;
+  color: var(--text-color);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_logo img {
+  width: 100px;
+}

@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Moderno</title>
-</head>
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Site Moderno</title>
+  </head>
+  <body>
+    <header>
+      <div class="container_logo">
+        <img
+          src="assets/src/image/sm_logo_pequeno.png"
+          alt="logo_site_moderno_pequeno"
+        />
+      </div>
+      <div id="menu_container">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <nav class="menu">
+          <ul class="navigation_menu">
+            <li><a href="#" class="navigation">Home</a></li>
+            <li><a href="#" class="navigation">Sobre</a></li>
+            <li><a href="#" class="navigation">github</a></li>
+            <li><a href="#" class="navigation">linkedin</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <picture>
+        <img src="assets/src/image/sm_logo_grande.png" alt="logo_site_moderno">
+      </picture>
+      <h1>O Site Moderno</h1>
+      <p>Rápido, eficiente, simples e intuitivo</p>
+    </main>
+    <footer>
+      <p>
+        Criado com <i class="bi bi-suit-heart"></i> por
+        <a href="#"><span>DEV-Chenzo</span></a>
+      </p>
+      <p>Copyright &copy; 2025</p>
+    </footer>
+  </body>
 </html>
