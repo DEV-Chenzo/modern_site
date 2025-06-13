@@ -23,9 +23,6 @@ header {
   justify-content: center;
 }
 
-.container_logo img {
-  width: 100px;
-}
 
 main {
   background: url("../src/image/sm_background.svg") no-repeat center center;
