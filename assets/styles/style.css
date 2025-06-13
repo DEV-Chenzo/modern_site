@@ -1,36 +1,58 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 :root {
   --primary-color: #e4bb52;
-  --secondary-color: #f1e470;
+  --secundar-color: #f1e470;
   --background-color: #000;
   --text-color: #fff;
+
+  --effect-font: "Bebas Neue", sans-serif;
+  --primary-font: "Montserrat", sans-serif;
+  --secundar-font: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--primary-font);
+}
+h1 {
+  font-family: var(--effect-font);
+  font-size: 4rem;
+  color: var(--text-color);
 }
 
 header {
   background-color: transparent;
   color: var(--text-color);
-  height: 12vh;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 0.5rem;
 }
 
-#menu_container {
+#menu-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
 main {
   background: url("../src/image/sm_background.svg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
 }
-main h1 {
-  color: var(--text-color);
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 2rem;
+
+section#eu-sou {
+  background-image: url("../src/image/sm_backgroun2.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 90vh;
 }
