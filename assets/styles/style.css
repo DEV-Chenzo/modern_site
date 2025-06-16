@@ -11,6 +11,7 @@
   --effect-font: "Bebas Neue", sans-serif;
   --primary-font: "Montserrat", sans-serif;
   --secundar-font: "Open Sans", sans-serif;
+  --basical-font: sans-serif;
 }
 
 body {
@@ -29,7 +30,7 @@ h1 {
 header {
   background-color: transparent;
   color: var(--text-color);
-  height: 10vh;
+  height: 10dvh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -46,7 +47,7 @@ main {
   background: url("../src/image/sm_background.svg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 90vh;
+  min-height: 90dvh;
 }
 
 section#eu-sou {
@@ -54,5 +55,11 @@ section#eu-sou {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 90vh;
+  min-height: 90dvh;
+}
+
+footer {
+  font-family: var(--basical-font);
+  text-align: center;
+  padding: 0.8rem;
 }
