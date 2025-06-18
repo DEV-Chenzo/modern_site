@@ -44,14 +44,14 @@ header {
 }
 
 main {
-  background: url("../src/image/sm_background.svg") no-repeat center center;
+  background: url('../src/image/background.webp') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   min-height: 90dvh;
 }
 
 section#eu-sou {
-  background-image: url("../src/image/sm_backgroun2.svg");
+  background-image: url("../src/image/background-b.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
