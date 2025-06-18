@@ -10,8 +10,7 @@
 
   --effect-font: "Bebas Neue", sans-serif;
   --primary-font: "Montserrat", sans-serif;
-  --secundar-font: "Open Sans", sans-serif;
-  --basical-font: sans-serif;
+  --basic-font: sans-serif;
 }
 
 body {
@@ -44,22 +43,29 @@ header {
 }
 
 main {
-  background: url('../src/image/background.webp') no-repeat center center;
+  background: url("../src/image/background.webp") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   min-height: 90dvh;
 }
 
 section#eu-sou {
-  background-image: url("../src/image/background-b.webp");
+  background-image: url("../src/image/background.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   min-height: 90dvh;
 }
 
+#sobre {
+  background: url("../src/image/background-b.webp") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90dvh;
+}
+
 footer {
-  font-family: var(--basical-font);
+  font-family: var(--basic-font);
   text-align: center;
   padding: 0.8rem;
 }
